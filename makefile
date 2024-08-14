@@ -7,6 +7,7 @@ bs6c.o: bs6c.s
 	as -g bs6c.s -o bs6c.o
 
 .PHONY: clean
-	clean:
-	rm -rf *.o
+clean:
+	rm ./*.o
+	rm ./Build/DEBUG/*
 
