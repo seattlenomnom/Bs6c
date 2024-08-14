@@ -1,0 +1,5 @@
+# .gitignore file for Bs6c
+
+./Build/DEBUG/*
+./Build/RELEASE/*
+./*.o
